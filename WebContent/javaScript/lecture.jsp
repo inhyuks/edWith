@@ -25,10 +25,10 @@
 			console.log(myFriend[key]);
 		}
 
-		console.log(Object.keys(myFriend)); //키값이 배열로 나옴
+		//console.log(Object.keys(myFriend)); //키값이 배열로 나옴
 
-		Object.keys(myFriend).forEach(function(v) {
-			console.log(myFriend[v]);
+		Object.keys(myFriend).forEach(function(key) {
+			console.log(myFriend[key]);
 		});
 	</script>
 </body>
