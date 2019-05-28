@@ -17,6 +17,12 @@ console.log(a.length);
 a.forEach(function(v,i,o){ //value , index , objeck
 	console.log(v);
 });
+
+var mapped = a.map(function(v){
+	return v * 2; //a의 원소를 돌면서 , 값을 변경시킨 후에 새로운 배열로 만들어서 반환함
+});
+
+console.log(mapped);
 </script>
 </body>
 </html>
